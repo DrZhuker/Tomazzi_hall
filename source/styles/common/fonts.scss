@@ -1,0 +1,6 @@
+/* здесь подключите шрифты */
+@include font-face("Montserrat", 400, normal, url("../../fonts/montserrat/Montserrat-Regular.woff") format("woff"));
+@include font-face("Montserrat", 500, normal, url("../../fonts/montserrat/Montserrat-Medium.woff") format("woff"));
+@include font-face("Montserrat", 700, normal, url("../../fonts/montserrat/Montserrat-Bold.woff") format("woff"));
+@include font-face("Montserrat", 300, normal, url("../../fonts/montserrat/Montserrat-Light.woff") format("woff"));
+@include font-face("Montserrat", 300, italic, url("../../fonts/montserrat/Montserrat-LightItalic.woff") format("woff"));
