@@ -24,3 +24,48 @@ body {
 img {
   display: block;
 }
+
+.title-xl {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 59px;
+  text-align: left;
+}
+
+.title-l {
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 48.76px;
+  text-align: left;
+}
+
+.title-m {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 39px;
+  text-align: left;
+}
+
+.button {
+  display: block;
+  width: 285px;
+  padding: 19px 20px 18px;
+  background-color: #9F7303;
+  border: none;
+  border-radius: 8px;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.button:hover,
+.button:focus-visible {
+  background-color: #856103;
+}
+
+.button:active {
+  background-color: #684C05;
+}

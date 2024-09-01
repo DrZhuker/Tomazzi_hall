@@ -1,0 +1,45 @@
+.about-us-list {
+  list-style: none;
+  margin: 0;
+  margin-bottom: 88px;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.about-us__title {
+  color: #9F7303;
+  margin: 0;
+  margin-bottom: 34px;
+}
+
+.about-us__list {
+  list-style: none;
+  margin: 0;
+  margin-bottom: 83px;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.about-us__item {
+  width: 540px;
+}
+
+.about-us__quote {
+  display: block;
+  width: 920px;
+  padding: 40px 70px;
+  margin: 0 auto;
+  margin-bottom: 114px;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 36px;
+  text-align: center;
+  color: #9F7303;
+  border-top: 1px solid #F5D581;
+  border-bottom: 1px solid #F5D581;
+}

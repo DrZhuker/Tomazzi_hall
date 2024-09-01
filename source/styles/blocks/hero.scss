@@ -4,19 +4,11 @@
 }
 
 .hero__title {
-  font-size: 48px;
-  font-weight: 500;
-  line-height: 59px;
-  text-align: left;
   margin: 0;
   margin-bottom: 32px;
 }
 
-.hero__title-small {
-  font-size: 40px;
-  font-weight: 500;
-  line-height: 48.76px;
-  text-align: left;
+.hero__title {
   color: #9F7303;
   margin: 0;
   margin-bottom: 56px;
@@ -29,12 +21,18 @@
 .hero__list-moment {
   list-style: none;
   margin: 0;
+  margin-bottom: 56px;
   padding: 0;
 }
 
 .hero__list-moment-item {
   padding-left: 27px;
   position: relative;
+  margin-bottom: 8px;
+}
+
+.hero__list-moment-item:last-child {
+  margin-bottom: 0;
 }
 
 .hero__list-moment-item::before {
@@ -43,6 +41,7 @@
   width: 8px;
   height: 8px;
   background-color: #F5D581;
-  background-position: 10px center;
-  transform: rotate(45deg);
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%) rotate(45deg);
 }

@@ -1,0 +1,52 @@
+.feedback {
+  background-color: #F4EFE2;
+  padding-top: 81px;
+}
+
+.feedback__form {
+  padding-bottom: 56px;
+  border-bottom: 1px solid #F5D581;
+  margin-bottom: 56px;
+}
+
+.feedback__title {
+  color: #9F7303;
+  margin: 0;
+  margin-bottom: 32px;
+}
+
+.feedback__input {
+  border: 1px solid #F5D581;
+  border-radius: 8px;
+  padding: 16px;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+.feedback__textarea {
+  width: 100%;
+  min-height: 160px;
+}
+
+.feedback__input-name {
+  width: 540px;
+  min-height: 64px;
+}
+
+.feedback__inner {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.feedback__text {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  width: 225px;
+}
