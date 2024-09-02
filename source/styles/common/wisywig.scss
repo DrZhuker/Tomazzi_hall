@@ -1,0 +1,60 @@
+.wysiwyg h1 {
+  font-size: 48px;
+  line-height: 59px;
+  margin-bottom: 24px;
+}
+
+.wysiwyg h2 {
+  color: #9f7303;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.wysiwyg h3 {
+  color: #9f7303;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.wysiwyg ul,
+.wysiwyg ol {
+  list-style: none;
+  margin: 0;
+  margin-bottom: 56px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.wysiwyg li {
+  padding-left: 22px;
+  position: relative;
+}
+
+.wysiwyg li::before {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background-color: #F5D581;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%) rotate(45deg);
+}
+
+.wysiwyg blockquote {
+  display: block;
+  width: 920px;
+  padding: 40px 70px;
+  margin: 0 auto;
+  margin-bottom: 114px;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 36px;
+  text-align: center;
+  color: #9F7303;
+  border-top: 1px solid #F5D581;
+  border-bottom: 1px solid #F5D581;
+}
