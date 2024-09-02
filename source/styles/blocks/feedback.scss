@@ -56,6 +56,9 @@
   list-style: none;
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
 }
 
 .feedback__comments-item {
@@ -74,6 +77,11 @@
   grid-column: 2 / 3;
   grid-row: 1 / 2;
   margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: left;
+
 }
 
 .feedback__comments {
