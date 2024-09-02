@@ -1,6 +1,7 @@
 .feedback {
   background-color: #F4EFE2;
   padding-top: 81px;
+  padding-bottom: 88px;
 }
 
 .feedback__form {
@@ -49,4 +50,34 @@
   line-height: 18px;
   text-align: left;
   width: 225px;
+}
+
+.feedback__comments-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.feedback__comments-item {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  column-gap: 24px;
+  row-gap: 8px;
+}
+
+.feedback__img {
+  grid-column: 1;
+  grid-row: span 2;
+}
+
+.feedback__author {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  margin: 0;
+}
+
+.feedback__comments {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  margin: 0;
 }
