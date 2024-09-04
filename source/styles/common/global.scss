@@ -69,3 +69,54 @@ body {
 .button:active {
   background-color: #684C05;
 }
+
+.wpcf7-textarea {
+  font-size: 18px;
+  line-height: 1.5;
+  font-family: "Montserrat", "Arial", sans-serif;
+  width: 100%;
+  padding: 17px;
+  box-sizing: border-box;
+  border: 1px solid #f5d581;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+
+.wpcf7-text {
+  font-size: 18px;
+  line-height: 1.5;
+  font-family: "Montserrat", "Arial", sans-serif;
+  padding: 17px;
+  box-sizing: border-box;
+  border: 1px solid #f5d581;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.feedback__form .wpcf7-text {
+  width: 50%;
+}
+
+.wpcf7-submit {
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  background-color: #9f7303;
+  color: #ffffff;
+  width: 285px;
+  padding: 20px 40px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+/* стили для подписи */
+.order-text {
+  font-size: 12px;
+  line-height: 1.5;
+  font-weight: 400;
+  opacity: 0.7;
+  width: 185px;
+}

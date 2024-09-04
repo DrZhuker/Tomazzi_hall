@@ -1,12 +1,19 @@
 .header {
-  display: flex;
-  flex-wrap: wrap;
-  max-width: 1110px;
-  justify-content: space-between;
-  margin: 0 auto;
   padding-top: 10px;
   padding-bottom: 18px;
+}
+
+.header__wrapper {
+  max-width: 1110px;
+  margin: 0 auto;
   position: relative;
+}
+
+.main-header-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
 }
 
 .header::after {

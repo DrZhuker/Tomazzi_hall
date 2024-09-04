@@ -10,28 +10,37 @@
 </head>
 
 <body class="page__body">
-  <header class="header container">
-    <div class="header__logo">
-      <p class="header__logo-title">INTERIOR LOUNGE</p>
-      <p class="header__logo-description">Дизайн общественных пространств </p>
+  <header class="header">
+    <div class="header__wrapper container">
+      <div class="main-header-wrapper">
+        <div class="header__logo">
+          <p class="header__logo-title">INTERIOR LOUNGE</p>
+          <p class="header__logo-description">Дизайн общественных пространств </p>
+        </div>
+        <nav class="main_nav">
+          <div class="menu-primary-container">
+            <ul class="menu">
+              <li class="menu-item menu-item-has-children"><a href="#">Наши проекты</a>
+                <ul class="sub-menu">
+                  <li class="menu-item"><a href="#">Tommazi
+                      Hall</a></li>
+                  <li class="menu-item"><a href="#">Lounge
+                      Hall</a>
+                  </li>
+                  <li class="menu-item"><a href="#">Astra
+                      Hall</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu-item"><a href="#">Контакты</a></li>
+              <li class="menu-item menu-item-styled"><a href="#">Оставить
+                  отзыв</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
     </div>
-    <nav class="navigation">
-      <ul class="header__navigation navigation__list">
-        <li class="navigation__item"><a class="navigation__link navigation__drop" href="#">Наши проекты</a>
-          <ul class="navigation__drop-list">
-            <li class="navigation__drop-item"><a class="navigation__link navigation__drop-link" href="#">Tommazi
-                Hall</a></li>
-            <li class="navigation__drop-item"><a class="navigation__link navigation__drop-link" href="#">Lounge Hall</a>
-            </li>
-            <li class="navigation__drop-item"><a class="navigation__link navigation__drop-link" href="#">Astra Hall</a>
-            </li>
-          </ul>
-        </li>
-        <li class="navigation__item"><a class="navigation__link" href="#">Контакты</a></li>
-        <li class="navigation__item"><a class="navigation__link navigation__link--border" href="#">Оставить отзыв</a>
-        </li>
-      </ul>
-    </nav>
   </header>
 
   <main>
@@ -67,51 +76,78 @@
         </ul>
       </div>
     </section>
+
     <section class="feedback">
       <div class="feedback__wrapper container">
-        <form class="feedback__form" action="#" method="post">
-          <h3 class="feedback__title title-m">Оставить отзыв </h3>
-          <textarea class="feedback__textarea feedback__input" id="message" name="message"
-            placeholder="Расскажите, что вы думаете о проекте"></textarea>
-          <label class="visually-hidden" for="name">Ваше имя:</label>
-          <input class="feedback__input-name feedback__input" type="text" id="name" name="name" placeholder="Ваше имя">
-          <div class="feedback__inner">
-            <button class="feedback__button button" type="submit">Отправить</button>
-            <p class="feedback__text">Отзыв будет добавлен после проверки модератором</p>
+        <h3 class="feedback__title title-m">Оставить отзыв </h3>
+        <div class="feedback__form">
+          <div class="wpcg7">
+            <form class="wpcf7-form" action="#" method="post">
+              <p>
+                <span class="wpcf7-form-control-wrap">
+                  <textarea class="wpcf7-textarea" id="message" name="message" cols="40" rows="10"
+                    placeholder="Расскажите, что вы думаете о проекте"></textarea>
+                </span>
+              </p>
+              <p>
+                <span class="wpcf7-form-control-wrap">
+                  <input type="text" size="40" class="wpcf7-text" placeholder="Ваше имя">
+                </span>
+              </p>
+              <div class="feedback__inner">
+                <p>
+                  <input type="submit" value="Отправить" class="wpcf7-submit">
+                  <span class="ajax-loader"></span>
+                </p>
+                <div class="order-text"> <!-- div лучше параграфа или span, так как к div CF7 не добавляет оберток -->
+                  Отзыв будет добавлен после проверки модератором
+                </div>
+              </div>
           </div>
-        </form>
-        <ul class="feedback__comments-list">
-          <li class="feedback__comments-item">
-            <picture>
-              <source type="image/webp" width="50" height="50"
-                srcset="images/avatar-1@1x.webp 1x, images/avatar-1@2x.webp 2x">
-              <img class="feedback__img" src="images/avatar-1@1x.png" srcset="images/avatar-1@2x.png" width="50"
-                height="50" alt="Аватар пользователя">
-            </picture>
-            <p class="feedback__author">Иван Грачев</p>
-            <p class="feedback__comments">Очень самобытный и необычный проект.</p>
+          </form>
+        </div>
+    </section>
+
+    <section class="comments">
+      <div class="comments__wrapper container">
+        <ul class="comments__comments-list">
+          <li class="comments__comments-item">
+            <div class="comments__img-wrapper">
+              <picture>
+                <source type="image/webp" width="50" height="50"
+                  srcset="images/avatar-1@1x.webp 1x, images/avatar-1@2x.webp 2x">
+                <img class="comments__img" src="images/avatar-1@1x.png" srcset="images/avatar-1@2x.png" width="50"
+                  height="50" alt="Аватар пользователя">
+              </picture>
+            </div>
+            <p class="comments__author">Иван Грачев</p>
+            <p class="comments__comments">Очень самобытный и необычный проект.</p>
           </li>
-          <li class="feedback__comments-item">
-            <picture>
-              <source type="image/webp" width="50" height="50"
-                srcset="images/avatar-2@1x.webp 1x, images/avatar-2@2x.webp 2x">
-              <img class="feedback__img" src="images/avatar-2@1x.png" srcset="images/avatar-2@2x.png" width="50"
-                height="50" alt="Аватар пользователя">
-            </picture>
-            <p class="feedback__author">Мария Рачинская</p>
-            <p class="feedback__comments">Мне особенно понравилось решение лестничных клеток.
+          <li class="comments__comments-item">
+            <div class="comments__img-wrapper">
+              <picture>
+                <source type="image/webp" width="50" height="50"
+                  srcset="images/avatar-2@1x.webp 1x, images/avatar-2@2x.webp 2x">
+                <img class="comments__img" src="images/avatar-2@1x.png" srcset="images/avatar-2@2x.png" width="50"
+                  height="50" alt="Аватар пользователя">
+              </picture>
+            </div>
+            <p class="comments__author">Мария Рачинская</p>
+            <p class="comments__comments">Мне особенно понравилось решение лестничных клеток.
               Кружки вообще очень стильные!</p>
           </li>
-          <li class="feedback__comments-item">
-            <picture>
-              <source type="image/webp" width="50" height="50"
-                srcset="images/avatar-3@1x.webp 1x, images/avatar-3@2x.webp 2x">
-              <img class="feedback__img" src="images/avatar-3@1x.png" srcset="images/avatar-3@2x.png" width="50"
-                height="50" alt="Аватар пользователя">
-            </picture>
-            <p class="feedback__author">Светлана</p>
-            <p class="feedback__comments">Очень нравится, что в городе развиваются такие проекты. Надеюсь, такие проекты
-              скоро будут не только в частных домах, но и в кафе, музеях, театрах.
+          <li class="comments__comments-item">
+            <div class="comments__img-wrapper">
+              <picture>
+                <source type="image/webp" width="50" height="50"
+                  srcset="images/avatar-3@1x.webp 1x, images/avatar-3@2x.webp 2x">
+                <img class="comments__img" src="images/avatar-3@1x.png" srcset="images/avatar-3@2x.png" width="50"
+                  height="50" alt="Аватар пользователя">
+              </picture>
+            </div>
+            <p class="comments__author">Светлана</p>
+            <p class="comments__comments">Очень нравится, что в городе развиваются такие проекты. Надеюсь, такие проекты
+              скоро будут не только в частных домах, но и в кафе, музеях, театрах.<br>
               Я бы сходила!</p>
           </li>
         </ul>
